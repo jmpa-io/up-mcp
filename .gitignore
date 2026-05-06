@@ -1,0 +1,17 @@
+# binaries
+dist/
+up-mcp
+
+# test artifacts
+*.test
+
+# environment files
+.env
+*.env
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
