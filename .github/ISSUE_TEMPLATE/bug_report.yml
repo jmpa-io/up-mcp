@@ -1,0 +1,19 @@
+---
+name: 🐞 Bug Report
+description: File a bug report
+title: "[BUG]: "
+labels: ["bug"]
+assignees: ["jcleal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to fill out this bug report!
+
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Description of the bug
+      description: Can you please give us a brief description of what happened and what should have happened?
+    validations:
+      required: true
